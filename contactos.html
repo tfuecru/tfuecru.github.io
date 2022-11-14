@@ -53,20 +53,30 @@
         width: 35%;">
             <form>
                     <label for="fname">Asunto:</label>
-                    <select id="tamaño" size="4">
-                        <option value="Pequeño" selected="selected">Problema chefs</option>
-                        <option value="Mediano">Problema comida</option>
-                        <option value="Grande">Problema restaurante</option>
-                        <option value="Enorme">Problema página WEB</option>
-                      </select><br><br>
+                    <select id="asunto">
+                        <option value="chefs">Problema chefs</option>
+                        <option value="comida">Problema comida</option>
+                        <option value="restaurante">Problema restaurante</option>
+                        <option value="WEB" selected="selected">Problema página WEB</option>
+                      </select><br>
+                      <legend>Motivo contacto con nosotros:</legend>
+                        <input type="checkbox" id="Queja">
+                        <label for="Queja">Queja</label><br>
+                        <input type="checkbox" id="Sugerencia">
+                        <label for="Sugerencia">Sugerencia</label><br>
                     <label for="fname">Nombre:</label>
                     <input type="text" id="Nombre"><br><br>
                     <label for="fname">Correo electrónico:</label>
-                    <input type="text" id="correo"><br><br>
+                    <input type="text" id="correo"><br>
+                    <legend>Sexo</legend>
+                        <input type="radio" id="Mujer" name="sexo" value="Mujer" checked="checked">
+                        <label>Mujer</label><br>
+                        <input type="radio" id="Hombre" name="sexo" value="Hombre">
+                        <label>Hombre</label><br><br>
                     <label for="fname">Teléfono:</label>
                     <input type="text" id="Teléfono"><br><br>
                     <label for="fname">Comentario:</label>
-                    <textarea id="Comentario" rows="5" colums="60">Comentario</textarea><br><br>
+                    <textarea id="Comentario" rows="2" colums="60">Comentario</textarea><br><br>
                     <input type="submit" value="Enviar datos">
             </form>
         </div>
