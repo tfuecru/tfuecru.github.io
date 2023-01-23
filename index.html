@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="author" content="Tatiana Fuentes">
+    <title>CASA TATI2.0</title>
+    <link rel="icon" type="image/x-icon" href="Recursos/favicon.ico">
+    <style>
+        base{
+            margin: 0%;
+            padding: 0%;
+            background-color: blue;
+        }
+        header{
+            margin: 3%;
+            padding: 2%;
+            overflow: hidden;
+            background-color: blanchedalmond; 
+            font-size: 1em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #logo{
+            float: left;
+            width: 20%;
+            height: 20%;
+        }
+
+        ul{
+            float: right;
+            text-align: center;
+            list-style-type: none;
+            margin: 2%;
+            margin-top: 4.5%;
+        }
+
+        li{
+            padding: 5px;
+            margin-right: 30px;
+            margin-left: 30px;
+            border: 1px solid;
+            background-color: white;
+            margin-bottom: 5px;
+            display: inline;
+        }
+
+        a:visited{
+            color: green;
+        }
+        a:link {
+            color: red;
+        }
+        a:hover {
+            color: hotpink;
+        }
+        a:active {
+            color: blue;
+        }
+
+        section{
+            margin: 3%;
+            padding: 2%;
+            top: 56%;
+            background-color: blanchedalmond;
+            overflow: hidden;
+        }
+
+        div.seccion{
+            left: 5%;
+            top: 10%;
+            height: auto;
+            width: 50%;
+        }
+
+        #foto{
+            float: left;
+            width: 48%;
+            height: 100%;
+            margin-left: 9%;
+        }
+
+        #texto{
+            padding: 2%;
+            float: right;
+            text-align: justify;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+
+        footer{
+            position: absolute;
+            margin: 3%;
+            padding: 1%;
+            top: 91%;
+            background-color: blanchedalmond;
+            overflow: hidden;
+        }
+
+        h4.tituloPiePagina{
+            text-align: center;
+        }
+
+        img.fotoPiePagina{
+            width: 10%;
+            height: 10%;
+        }
+
+        div.piePágina{
+            float: left;
+            margin: 1%;
+            border: 1px black solid; 
+            width: 29%;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+  <base>
+    <header>
+        <img src="Recursos/salon.jpg" alt="Logotipo" id="logo">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="galeria.html">Galería</a>
+            </li>
+            <li>
+                <a href="chefs.html">Chefs</a>
+            </li>
+            <li>
+                <a href="lugar.html">Dónde estamos</a>
+            </li>
+            <li>
+                <a href="contactos.html">Contactos</a>
+            </li>
+            <li>
+                <a href="servicios.html">Servicios</a>
+            </li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="seccion">
+            <img src="Recursos/logo.png" id="foto">
+        </div>
+        <div id="texto" class="seccion">
+            <p>
+                Casa Tati es la casa de todos, es hospitalidad. Nuestra filosofía se basa en la felicidad y la sencillez, es un lugar donde queremos que se encuentren cómodas todas las personas que vienen a nuestra casa y la hagan suya.<br><br>
+                En Casa Tati basamos nuestra filosofía en una casa de comidas. Es un restaurante sencillo y contemporáneo, donde incluimos productos de temporada, donde el tiempo a la hora de cocinar es una inversión en el placer culinario y donde nuestra bodega lo acompaña a la perfección.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class = "piePágina">
+            <h4 class="tituloPiePagina"> <img src="Recursos/iconoNosotros.png" class="fotoPiePagina">Sobre Nosotros</h4>
+            <p>
+                Fascinando con nuestra cocina desde 1970. <br>
+                Ven y disfruta de nuestra cocina occidental.
+            </p>
+           
+        </div>
+        <div class = "piePágina">
+            <h4 class="tituloPiePagina"> <img src="Recursos/horario.png" class="fotoPiePagina">Horario</h4>
+            <p>
+                Lunes-Viernes --> 12:30 - 16:30<br>
+                Sábados -->       11:30 - 01:00<br> 
+                Domingos -->      12:00 - 23:00
+            </p>
+        </div>
+        <div class = "piePágina">
+            <h4 class="tituloPiePagina"> <img src="Recursos/Redes.png" class="fotoPiePagina">Nuestras Redes</h4>
+            <p>
+                Twitter --> @CasaTati2.0<br>
+                Instagram --> @CasaTati2.0<br>
+                Facebook --> CasaTati2.0
+            </p>
+        </div>
+    </footer>
+</base>
+</body>
+</html>
