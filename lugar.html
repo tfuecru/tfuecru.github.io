@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+<link rel="stylesheet" href="estilo.css">
 <head>
     <meta name="author" content="Tatiana Fuentes">>
     <title>CASA TATI2.0</title>
     <link rel="icon" type="image/x-icon" href="Recursos/favicon.ico">
 </head>
 <body>
-    <header style="
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 10%;
-    border: 1px white solid;
-    height:45%;">
-    <img src="Recursos/salon.jpg" width="100%" height="100%">
+    <base>
+    <header>
+        <img src="Recursos/salon.jpg" alt="Logotipo" id="logo">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="galeria.html">Galería</a>
+            </li>
+            <li>
+                <a href="chefs.html">Chefs</a>
+            </li>
+            <li>
+                <a href="lugar.html">Dónde estamos</a>
+            </li>
+            <li>
+                <a href="contactos.html">Contactos</a>
+            </li>
+            <li>
+                <a href="servicios.html">Servicios</a>
+            </li>
+        </ul>
     </header>
 
-    <nav style="
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 56%;
-    border: 1px black solid;
-    height:5%;">
-        <pre style="text-align: center;">
-<a href="index.html">Inicio</a>      <a href="galeria.html">Galería</a>      <a href="chefs.html">Chefs</a>      <a href="lugar.html">Dónde estamos</a>      <a href="contactos.html">Contactos</a>
-        </pre>
-    </nav>
-
-    <section style="
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 62%;
-    border: 1px black solid;
-    height:50%;">
+    <section>
         <div style="
         position: absolute;
         left: 5%;
@@ -58,55 +56,42 @@
         </div>
     </section>
 
-    <footer style="
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 115%;
-    border: 1px black solid;
-    height:22%;">
-        <div style="
-         position: absolute;
-        left: 5%;
-        top: 5%;
-        border: 1px black solid;
-        height:92%; 
-        width:27%">
-            <h4 style="text-align: center;"> <img src="Recursos/iconoNosotros.png" width="10%" height="10%">Sobre Nosotros</h4>
+    <footer>
+        <div class = "piePágina">
+            <h4 class="tituloPiePagina"> <img src="Recursos/iconoNosotros.png" class="fotoPiePagina">Sobre Nosotros</h4>
             <p>
                 Fascinando con nuestra cocina desde 1970. <br>
-                Ven y disfruta de nuestra cocina occidental.
+                Ven y disfruta de nuestra cocina occidental <br>
+                de las manos de los mejores chefs del pais.
             </p>
            
         </div>
-        <div style="
-         position: absolute;
-        left: 37%;
-        top: 5%;
-        border: 1px black solid;
-        height:92%; 
-        width:27%">
-            <h4 style="text-align: center;"> <img src="Recursos/horario.png" width="10%" height="10%">Horario</h4>
-            <p>
-                Lunes-Viernes --> 12:30 - 16:30<br>
-                Sábados -->       11:30 - 01:00<br> 
-                Domingos -->      12:00 - 23:00
-            </p>
+        <div class = "piePágina">
+            <h4 class="tituloPiePagina"> <img src="Recursos/horario.png" class="fotoPiePagina">Horario</h4>
+            <table>
+                <tr>
+                    <th>Lunes-Viernes</th>
+                    <td>12:30 - 16:30</td>
+                </tr>
+                <tr>
+                    <th>Sábados</th>
+                    <td>11:30 - 01:30</td>
+                </tr>
+                <tr>
+                    <th>Domingos</th>
+                    <td>12:00 - 23:00</td>
+                </tr>
+            </table>
         </div>
-        <div style="
-         position: absolute;
-        left: 69%;
-        top: 5%;
-        border: 1px black solid;
-        height:92%; 
-        width:27%">
-            <h4 style="text-align: center;"> <img src="Recursos/Redes.png" width="10%" height="10%">Nuestras Redes</h4>
+        <div class = "piePágina">
+            <h4 class="tituloPiePagina"> <img src="Recursos/Redes.png" class="fotoPiePagina">Nuestras Redes</h4>
             <p>
-                Twitter --> @CasaTati2.0<br>
-                Instagram --> @CasaTati2.0<br>
-                Facebook --> CasaTati2.0
+                <a href="https://twitter.com/?lang=es">Twitter --> @CasaTati2.0</a><br>
+                <a href="https://www.instagram.com/">Instagram --> @CasaTati2.0</a><br>
+                <a href= "https://es-es.facebook.com/">Facebook --> CasaTati2.0</a>
             </p>
         </div>
     </footer>
+</base>
 </body>
 </html>
