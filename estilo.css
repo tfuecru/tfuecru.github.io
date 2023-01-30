@@ -19,12 +19,13 @@ header{
     height: 20%;
 }
 
-#navegador{
+ul{
     float: right;
     text-align: center;
     list-style-type: none;
     margin: 2%;
     margin-top: 4.5%;
+    font-size: 1.4em;
 }
 
 li{
@@ -59,7 +60,7 @@ section{
 }
 
 div.seccion{
-    left: 5%;
+    left: 2%;
     top: 10%;
     height: auto;
     width: 50%;
@@ -74,6 +75,7 @@ div.seccion{
 
 #texto{
     padding: 2%;
+    padding-left: 18%;
     float: right;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -91,8 +93,8 @@ div.galeria{
 }
 
 img.fotoGaleria{
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 
 #chefs{
