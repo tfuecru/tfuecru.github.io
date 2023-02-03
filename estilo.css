@@ -5,9 +5,9 @@ base{
 }
 
 header{
-    margin: 3%;
-    padding: 2%;
     overflow: hidden;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: blanchedalmond; 
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
@@ -15,8 +15,11 @@ header{
 
 #logo{
     float: left;
+    margin-left: 2em;;
     width: 20%;
     height: 20%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 ul{
@@ -25,7 +28,7 @@ ul{
     list-style-type: none;
     margin: 2%;
     margin-top: 4.5%;
-    font-size: 1.4em;
+    font-size: 1.4em;  
 }
 
 li{
@@ -36,6 +39,10 @@ li{
     background-color: white;
     margin-bottom: 5px;
     display: inline;
+}
+
+header a{
+    text-decoration: none;
 }
 
 a:visited{
@@ -52,11 +59,13 @@ a:active {
 }
 
 section{
-    margin: 3%;
     padding: 2%;
-    top: 56%;
+    margin-top: 2em;
+    margin-bottom: 2em;
     background-color: blanchedalmond;
     overflow: hidden;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 div.seccion{
@@ -110,12 +119,11 @@ img.fotoGaleria{
 }
 
 footer{
-    position: absolute;
-    margin: 3%;
     padding: 1%;
-    top: 91%;
     background-color: blanchedalmond;
     overflow: hidden;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 h4.tituloPiePagina{
