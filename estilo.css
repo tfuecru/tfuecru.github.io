@@ -2,6 +2,7 @@ base{
     margin: 0%;
     padding: 0%;
     background-color: blue;
+    box-sizing: border-box;
 }
 
 header{
@@ -92,18 +93,16 @@ div.seccion{
 }
 
 div.galeria{
-    position: absolute;
-    margin: 1%;
-    padding: 4%;
+    float: right;
     border: 1px black solid;
-    height: 25%;
-    width: 20%;
+    height: 26%;
+    width: 33%;
     text-align: center
 }
 
 img.fotoGaleria{
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
 }
 
 #chefs{
@@ -116,6 +115,10 @@ img.fotoGaleria{
     padding: 2%;
     width: 40%;
     text-align: justify;
+}
+
+#mapa{
+
 }
 
 footer{
