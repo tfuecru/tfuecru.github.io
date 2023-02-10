@@ -92,17 +92,32 @@ div.seccion{
     font-size: medium;
 }
 
-div.galeria{
+#mapa{
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+
+#textoMapa{
     float: right;
+    overflow: hidden;
+    padding: 1em;
+    width: 45%;
+}
+
+div.galeria{
+    margin: 0.5em;
+    padding: 1.2em;
+    float: left;
     border: 1px black solid;
-    height: 26%;
-    width: 33%;
+    overflow: hidden;
+    width: 30%;
     text-align: center
 }
 
 img.fotoGaleria{
-    width: 50%;
-    height: 50%;
+    width: 20em;
+    height: 16em;
 }
 
 #chefs{
@@ -115,10 +130,6 @@ img.fotoGaleria{
     padding: 2%;
     width: 40%;
     text-align: justify;
-}
-
-#mapa{
-
 }
 
 footer{
